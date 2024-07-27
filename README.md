@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import maxsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-maxsorted@deno/mod.js';
+import maxsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-maxsorted@v0.2.2-deno/mod.js';
 ```
 
 #### maxsorted( N, x, stride )
@@ -155,7 +155,7 @@ var v = maxsorted.ndarray( N, x, 2, 1 );
 
 ```javascript
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import maxsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-maxsorted@deno/mod.js';
+import maxsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-maxsorted@v0.2.2-deno/mod.js';
 
 var x;
 var i;
